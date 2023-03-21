@@ -64,6 +64,7 @@ public class laba2 {
             break;}
             catch (InputMismatchException exc) {
                 System.out.println("enter number,please");
+                break;
             }
         }
     }
