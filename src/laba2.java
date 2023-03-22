@@ -14,8 +14,9 @@ public class laba2 {
         c11 = scorebook_num % 7;
         System.out.println(c11 + " - c11\nCalculate the sum of the largest elements of each matrix column \n");
 
-        Scanner scan = new Scanner(System.in);
+
         while (true) {
+            Scanner scan = new Scanner(System.in);
             try{
             System.out.println("enter number of rows");
             short i = scan.nextShort();
@@ -64,7 +65,6 @@ public class laba2 {
             break;}
             catch (InputMismatchException exc) {
                 System.out.println("enter number,please");
-                break;
             }
         }
     }
